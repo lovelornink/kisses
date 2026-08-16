@@ -97,10 +97,10 @@ export const botConfig = {
       secondary: "#ebe8d7",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#f6d9db",
+      error: "#caa3a4",
+      warning: "#7e5c5d",
+      info: "#e6c0b7",
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -117,8 +117,8 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#f6d9db",
+        ended: "#f6f1ed",
       },
       ticket: {
         open: "#57F287",
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "lovely dove",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -372,13 +372,13 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "୨୧・welcome, {user} you’ve found your way into my little library! ♡",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1538397808418226248,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
